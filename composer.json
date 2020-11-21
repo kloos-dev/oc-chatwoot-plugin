@@ -1,0 +1,20 @@
+{
+  "name": "kloos/oc-chatwoot-plugin",
+  "description": "Chatwoot plugin for October CMS",
+  "type": "october-plugin",
+  "license": "MIT",
+  "keywords": [
+    "october"
+  ],
+  "authors": [
+    {
+      "name": "Sebastiaan Kloos",
+      "email": "sebastiaan@kloos.dev",
+      "role": "creator"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  }
+}
