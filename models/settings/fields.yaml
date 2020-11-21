@@ -1,0 +1,47 @@
+fields:
+  baseUrl:
+    label: 'Base url'
+    type: text
+    span: left
+  websiteToken:
+    label: 'Website token'
+    type: text
+    span: right
+  type:
+    label: Type
+    type: radio
+    span: left
+    options:
+      standard: standard
+      expanded_bubble: Expanded bubble
+  position:
+    label: Position
+    span: right
+    type: radio
+    options:
+      right: Right
+      left: Left
+    default: right
+  launcherTitle:
+    label: Launcher title
+    span: left
+    type: text
+    trigger:
+      action: show
+      field: type
+      condition: value[expanded_bubble]
+  showPopoutButton:
+    label: Show popout button
+    span: left
+    type: checkbox
+    default: false
+  setUser:
+    label: Set user
+    span: right
+    type: checkbox
+    default: false
+  locale:
+    label: Locale
+    span: left
+    type: text
+    default: en

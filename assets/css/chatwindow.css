@@ -1,0 +1,11 @@
+.form-buttons .pull-right {
+    margin-right: 180px;
+}
+
+.woot-widget-bubble.woot-widget--expanded {
+    bottom: 18px !important;
+}
+
+.woot-widget-bubble {
+    bottom: 10px !important;
+}
