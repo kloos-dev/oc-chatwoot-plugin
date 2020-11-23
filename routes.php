@@ -23,5 +23,6 @@ Route::get('/js/chatwindow.js', function () {
         'userName' => $user->name,
     ];
 
-    return $parser->parse($script, $params);
+    return response($parser->parse($script, $params))
+        ->header('Content-Type', 'application/javascript; charset=utf-8');
 })->middleware('web');
